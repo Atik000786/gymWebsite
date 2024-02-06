@@ -1,0 +1,64 @@
+body{
+   margin:0px,0px;
+   padding:0px,0px;
+}
+.navbar{
+   height:20vh;
+   background-color:black ;
+   border:1px slolid black;
+}
+ul{
+  display:flex;
+  flex-direction: row;
+}
+.item{
+    display:flex;
+    font-size:1.5em;
+    margin:3vh;
+}
+a{
+    text-decoration:none;
+    color:antiquewhite;
+}
+.header{
+    height:10vh;
+    background-color: black;
+ }
+ h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkred;
+ }
+ .main{
+    display:flex;
+    flex-direction:row-reverse;
+    height:90vh;
+    border:2px solid black;
+ }
+ .discription{
+    height:100%;
+    width:45%;
+    border: 1px solid black;
+    background-image:url(Screenshot\ \(124\).png);
+    background-size:cover;
+ }
+ .img1{
+    height:100%;
+    width:35%;
+    border:2px solid black;
+    background-image:url(gym2.png);
+    background-size:cover;
+ }
+ .img2{
+    height:100%;
+    width:25%;
+    background-image:url("gym1.jpg");
+    background-size:cover;
+    border:2px solid black;
+ }
+ footer{
+    background-color:black;
+    height:10vh;
+    color:antiquewhite;
+    font-size:1.5em;
+ }

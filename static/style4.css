@@ -1,0 +1,67 @@
+body{
+    padding:0px,0px;
+    margin:0px,0px;
+}
+#navbar{
+    background-color: black;
+    height:20vh;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+li{
+    list-style: none;
+    padding: 12px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color:blue;
+}
+
+.container{
+    height:85vh;
+    background-image: url("gym5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height:30px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.btn{
+    color:white;
+    background-color: green;
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    margin:50px auto;
+}
+footer{
+    height:10vh;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
